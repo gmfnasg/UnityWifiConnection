@@ -57,7 +57,7 @@ public class Clinet : MonoBehaviour {
 					GetComponent<NetworkView> ().RPC("Add", RPCMode.All, 1);
 				}
 			}
-			if(GUILayout.Button("+")){
+			if(GUILayout.Button("-")){
 				if (GetComponent<NetworkView> ()) {
 					GetComponent<NetworkView> ().RPC("Subtract", RPCMode.All, 1);
 				}
