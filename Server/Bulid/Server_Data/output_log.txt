@@ -20,112 +20,26 @@ Platform assembly: G:\WorkSpace\UnityWifiConnection\UnityWifiConnection\Server\B
 Loading G:\WorkSpace\UnityWifiConnection\UnityWifiConnection\Server\Bulid\Server_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: G:\WorkSpace\UnityWifiConnection\UnityWifiConnection\Server\Bulid\Server_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading G:\WorkSpace\UnityWifiConnection\UnityWifiConnection\Server\Bulid\Server_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.062 seconds
+- Completed reload, in  0.058 seconds
 desktop: 1920x1080 60Hz; virtual: 3488x1366 at -800,-107
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: G:\WorkSpace\UnityWifiConnection\UnityWifiConnection\Server\Bulid\Server_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: G:\WorkSpace\UnityWifiConnection\UnityWifiConnection\Server\Bulid\Server_Data\Managed\System.dll (this message is harmless)
-Do Add
+Failed to initialize network interface. Is the listen port already in use?
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+(Filename:  Line: 214)
 
-Do Add
+It's not possible to register a host until it is running.
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+(Filename:  Line: 596)
 
-Couldn't send RPC function 'UpdateServerAmount'
-
+Failed to initialize network interface. Is the listen port already in use?
  
-(Filename:  Line: 2473)
+(Filename:  Line: 214)
 
-Do Add
+It's not possible to register a host until it is running.
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Add
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Subtract
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Subtract
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Subtract
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Subtract
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Subtract
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Do Subtract
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
-Couldn't send RPC function 'UpdateServerAmount'
-
- 
-(Filename:  Line: 2473)
+(Filename:  Line: 596)
 

@@ -12,6 +12,12 @@ public class Server : MonoBehaviour {
 	}
 
 	void Update(){
+		//Debug.Log ("網路狀態: " + Network.TestConnection());
+		if(Network.peerType == NetworkPeerType.Disconnected)
+			Debug.Log ("伺服器關閉中");
+		else if(Network.peerType == NetworkPeerType.Server)
+			Debug.Log ("伺服器開啟");
+
 		if (serverStart && GetComponent<NetworkView> () && Network.connections.Length>0) {
 			GetComponent<NetworkView> ().RPC("UpdateServerAmount", RPCMode.All, amount);
 		}
@@ -19,7 +25,7 @@ public class Server : MonoBehaviour {
 
 	void OnGUI(){
 		GUILayout.Label("StartServer:"+serverStart);
-		if (GUILayout.Button ("StartServer")) {
+		if (GUILayout.Button ("StartServer", GUILayout.Height(40))) {
 			Network.InitializeServer (99, 9998, !Network.HavePublicAddress ()); 
 			MasterServer.RegisterHost ("YourPCRoom", "PhantasyNan", "alpha 1.0");
 			serverStart = true;
